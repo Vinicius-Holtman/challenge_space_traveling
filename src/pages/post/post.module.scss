@@ -1,1 +1,58 @@
-// TODO
+main.container {
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+div.banner {
+  width: 100%;
+  object-fit: cover;
+  height: 23rem;
+}
+
+div.post {
+  max-width: 720px;
+
+  h1 {
+    margin-top: 5rem;
+  }
+
+  div.heading {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    gap: 1.5rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gray-300);
+    }
+  }
+
+  div.content {
+    article {
+      .postContent {
+        margin-top: 1.75rem;
+        line-height: 2rem;
+        font-size: 1.125rem;
+        color: var(--gray-300);
+        
+        p, ul {
+          margin: 1.5rem 0;
+        }
+        
+        ul {
+          padding-left: 1.5rem;
+          
+          li {
+            margin: 0.5rem 0;
+          }
+        }
+      }
+    }
+  }
+}

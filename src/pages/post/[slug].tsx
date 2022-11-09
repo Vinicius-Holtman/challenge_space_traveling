@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import { RichText } from 'prismic-dom';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
-import { Header } from '../../components/Header';
+import Header from '../../components/Header';
 import { getPrismicClient } from '../../services/prismic';
 import styles from './post.module.scss';
 

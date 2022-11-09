@@ -6,7 +6,7 @@ import { AiOutlineCalendar } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
 import ptBR from 'date-fns/locale/pt-BR';
 
-import { Header } from '../components/Header';
+import Header from '../components/Header';
 import { getPrismicClient } from '../services/prismic';
 import styles from './home.module.scss';
 
